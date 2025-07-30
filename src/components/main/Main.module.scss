@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: var(--navy-900);
+
+  &__figure {
+    margin: 0 0 33px 0;
+    width: 304px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center ;
+  }
+
+  &__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 15px 0;
+    max-width: 320px;
+  }
+
+  &__paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin: 0 0 32px 0;
+    max-width: 296px;
+  }
+}
