@@ -2,11 +2,15 @@ import b from './Button.module.scss';
 
 interface ButtonProps {
   title: string;
+  width?: string;
 }
 
-const Button = ({ title }: ButtonProps) => {
+const Button = ({ title, width }: ButtonProps) => {
   return (
-    <button className={b.button}>
+    <button
+      className={b.button}
+      style={{ '--btn-width': width } as React.CSSProperties}
+    >
       {title}
     </button>
   );

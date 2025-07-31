@@ -13,7 +13,7 @@ const Info = ({ imgSrc, imgAlt, title, paragraph }: InfoProps) => {
       <figure className={i['info__figure']}>
         <img className={i['info__figure-img']} src={imgSrc} alt={imgAlt} />
       </figure>
-      <h3 className={i['info__title']}>{title}</h3>
+      <h2 className={i['info__title']}>{title}</h2>
       <p className={i['info__paragraph']}>{paragraph}</p>
     </article>
   );
