@@ -32,7 +32,10 @@ const Main = () => {
           />
         </div>
       </header>
-      <section aria-label="Features" className={m['main__features']}>
+      <section
+        aria-label="Features"
+        className={m['main__features']}
+      >
         {infoData.map((item, idx) => (
           <Info
             key={idx}
@@ -44,9 +47,23 @@ const Main = () => {
         ))}
       </section>
       <section aria-label="Testimonials">
-        <Cards />
-        <Cards />
-        <Cards />
+        <Cards
+          showQuote={true}
+          
+          imgSrc="/images/profile-1.webp"
+          imgAlt="Satish Patel image profile"
+          name="Satish Patel"
+        />
+        <Cards
+          imgSrc="/images/profile-2.webp"
+          imgAlt="Bruce McKenzie image profile"
+          name="Bruce McKenzie"
+        />
+        <Cards
+          imgSrc="/images/profile-3.webp"
+          imgAlt="Iva Boyd image profile"
+          name="Iva Boyd"
+        />
       </section>
     </main>
   );
