@@ -9,14 +9,20 @@ interface InfoProps {
 
 const Info = ({ imgSrc, imgAlt, title, paragraph }: InfoProps) => {
   return (
-    <article className={i.info}>
-      <figure className={i['info__figure']}>
-        <img className={i['info__figure-img']} src={imgSrc} alt={imgAlt} />
-      </figure>
-      <h2 className={i['info__title']}>{title}</h2>
-      <p className={i['info__paragraph']}>{paragraph}</p>
-    </article>
+    <section className={i.info}>
+      <article className={i['info__article']}>
+        <figure className={i['info__figure']}>
+          <img
+            className={i['info__figure-img']}
+            src={imgSrc}
+            alt={imgAlt}
+          />
+        </figure>
+        <h2 className={i['info__title']}>{title}</h2>
+        <p className={i['info__paragraph']}>{paragraph}</p>
+      </article>
+    </section>
   );
-}
+};
 
 export default Info;

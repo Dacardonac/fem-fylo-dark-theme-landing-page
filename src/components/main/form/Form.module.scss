@@ -1,3 +1,56 @@
 .form {
+  background-color: var(--navy-850);
+  padding: 40px 28px 37px 28px;
+  border-radius: 9px;
+  max-width: 336px;
+  height: 353px;
+  margin: 0 auto;
+  text-align: center;
 
+  &__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 32px;
+  }
+
+  &__label {
+    &--visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+      opacity: 0;
+    }
+  }
+
+  &__input {
+    width: 280px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: var(--white);
+    border: none;
+    padding: 0 1.5rem;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+    outline: none;
+
+    &::placeholder {
+      color: var(--gray);
+    }
+  }
 }
