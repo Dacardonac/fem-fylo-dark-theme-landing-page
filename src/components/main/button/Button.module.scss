@@ -1,10 +1,19 @@
 .button {
   width: var(--btn-width, 100%);
-  height: 3rem; 
+  height: 3rem;
   border-radius: 1.5rem;
   background: var(--btn-background);
   margin-bottom: 7.5rem;
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
+  transition: transform 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background: var(--btn-background-hover);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+    transform: translateY(-1px);
+    transition: transform 0.2s ease;
+  }
 }

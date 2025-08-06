@@ -74,7 +74,7 @@ const Main = () => {
             >
               See how Fylo works
             </a>
-            {/* <img src="/public/images/icon-arrow.svg" alt="Arrow icon" /> */}
+            {/* <img src="/public/images/svg/icon-arrow.svg" alt="Arrow icon" /> */}
             <svg
               className={m['main__productive-link-icon']}
               width="16"

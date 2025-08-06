@@ -14,12 +14,12 @@
 --btn-background: linear-gradient(100deg,
   hsl(176, 68%, 64%) 0%,
   hsl(189, 60%, 50%) 100%); // (button background)
-
+--btn-background-hover: hsl(186, 61%, 72%); // (button hover background)
 --red-500: hsl(0, 100%, 63%); // (error)
 
 // Neutral
 
 --white: hsl(0, 0%, 100%);
 --black: hsl(0, 0%, 0%);
---gray: hsla(0, 0%, 75%, 0.753); // (placeholder text color)
+--dark-gray: hsla(0, 0%, 13%, 0.75); // (placeholder text color)
 }

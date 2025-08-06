@@ -243,6 +243,7 @@ I want to continue learning more about **React**, **Props** and **Typescript**, 
 - **[MDN](https://developer.mozilla.org/en-US/)** - This helped me with **Documentation** on many topics, mostly with **HTML** and **CSS** properties.
 - **[ChatGPT](https://chatgpt.com/)** - This is an incredible **Artificial Intelligence (AI)** tool, **ChatGPT** helps me with **specific topics**, **errors in the project** and **investigations**.
 - **[Figma](https://www.figma.com/)** - Amazing tool for the **design** and style of the project.
+ - **[FontAwesome](https://fontawesome.com/)** - Social icons for the footer and navbar were downloaded from FontAwesome.
 
 ## Author 👨‍💻
 

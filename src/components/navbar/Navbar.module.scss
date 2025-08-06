@@ -4,6 +4,7 @@
   justify-content:  center ;
   align-items:  center ;
   font-family: "Raleway", sans-serif;
+  transition: background 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
 
   &__container {
   width: 100%;
@@ -38,7 +39,7 @@
   &__link {
     color: var(--white);
     text-decoration: none;
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
     font-weight: 400;
     white-space: nowrap;
     transition: color 0.2s;
@@ -48,6 +49,7 @@
     &:focus {
       font-weight: bold;
       text-decoration: underline;
+      transition: all 0.2s ease;
     }
   }
 }
