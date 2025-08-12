@@ -1,7 +1,9 @@
 .footer {
   background-color: var(--navy-950);
-  padding: 83px 28px 52px 28px;
+  padding: 256px 28px 52px 28px;
   width: 100%;
+  margin-top: -11rem;
+  z-index: 1;
 
   &__container {
     display: flex;

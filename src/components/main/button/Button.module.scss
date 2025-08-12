@@ -17,3 +17,11 @@
     transition: transform 0.2s ease;
   }
 }
+
+@media (min-width: 768px) {
+  .button {
+    height: 56px;
+    font-size: 1rem;
+    margin-bottom: 9.875rem;
+  }
+}

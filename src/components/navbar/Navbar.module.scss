@@ -53,3 +53,26 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .navbar {
+    &__container {
+      padding: 73px 80px 75px 80px;
+    }
+
+    &__logo {
+      &-svg {
+        width: 11rem;
+        height: 3.3rem;
+      }
+    }
+
+    &__links {
+      gap: 57.2px;
+    }
+
+    &__link {
+      font-size: 1rem;
+    }
+  }
+}

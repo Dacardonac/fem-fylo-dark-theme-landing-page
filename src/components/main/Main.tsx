@@ -4,11 +4,26 @@ import Info from './info/Info';
 import m from './Main.module.scss';
 import infoData from '../../data/infoData.json';
 import Form from './form/Form';
+import { useEffect, useState } from 'react';
+
+function useIsDesktop(breakpoint = 768) {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= breakpoint);
+
+  useEffect(() => {
+    const handleResize = () => setIsDesktop(window.innerWidth >= breakpoint);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [breakpoint]);
+
+  return isDesktop;
+}
 
 const Main = () => {
+  const isDesktop = useIsDesktop(768);
+
   return (
     <main className={m.main}>
-      <header>
+      <header className={m['main__header']}>
         <figure className={m['main__figure']}>
           <img
             className={m['main__figure-img']}
@@ -29,7 +44,7 @@ const Main = () => {
           </p>
           <Button
             title="Get Started"
-            width="240px"
+            width={isDesktop ? '280px' : '240px'}
           />
         </div>
       </header>
