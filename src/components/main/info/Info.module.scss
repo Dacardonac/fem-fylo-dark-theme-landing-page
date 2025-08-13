@@ -41,3 +41,27 @@
       max-width: 20rem;
     }
 }
+
+@media (min-width: 768px) {
+  .info {
+    &__figure {
+      width: 104px;
+      height: 104px;
+
+      &-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__paragraph {
+      font-size: 14px;
+      line-height: 21px;
+      max-width: 23.5rem;
+    }
+  }
+}
