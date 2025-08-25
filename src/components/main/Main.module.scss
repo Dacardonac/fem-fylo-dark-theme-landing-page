@@ -71,90 +71,89 @@
     margin-bottom: 12rem;
     position: relative;
     z-index: 1;
-  }
 
-  &__productive-figure {
-    width: 20rem;
-    height: 13.75rem;
-    margin: 0 auto 2rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    &-figure {
+      width: 20rem;
+      height: 13.75rem;
+      margin: 0 auto 2rem auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  &__productive-img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+    &-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
 
-  &__productive-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 320px;
-  }
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 320px;
+    }
 
-  &__productive-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.25rem;
-    font-weight: bold;
-    line-height: 1.5;
-    color: var(--white);
-    align-self: flex-start;
-    margin-bottom: 1.5rem;
-  }
-
-  &__productive-paragraph {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9375rem;
-    line-height: 1.5;
-    color: var(--white);
-    margin-bottom: 1rem;
-  }
-
-  &__productive-link {
-    color: var(--teal-200);
-    font-size: 0.875rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25rem;
-    border-bottom: 1px solid var(--teal-200);
-    padding-bottom: 0.375rem;
-    cursor: pointer;
-    text-decoration: none;
-    transition:
-      color 0.2s,
-      border-color 0.2s;
-
-    &:hover,
-    &:focus {
+    &-title {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.25rem;
+      font-weight: bold;
+      line-height: 1.5;
       color: var(--white);
-      border-color: var(--white);
+      align-self: flex-start;
+      margin-bottom: 1.5rem;
+    }
 
-      .main__productive-link-icon {
-        fill: var(--white);
+    &-paragraph {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    &-link {
+      color: var(--teal-200);
+      font-size: 0.875rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      border-bottom: 1px solid var(--teal-200);
+      padding-bottom: 0.375rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition:
+        color 0.2s,
+        border-color 0.2s;
+
+      &:hover,
+      &:focus {
+        color: var(--white);
+        border-color: var(--white);
+
+        .main__productive-link-icon {
+          fill: var(--white);
+        }
+      }
+
+      &:visited {
+        color: var(--teal-200);
+        border-color: var(--teal-200);
+      }
+
+      &-icon {
+        width: 0.75rem;
+        height: auto;
+        display: inline-block;
+        transform: translateY(1px);
+        transition: filter 0.2s;
       }
     }
-
-    &:visited {
-      color: var(--teal-200);
-      border-color: var(--teal-200);
-    }
-  }
-
-  &__productive-link-icon {
-    width: 0.75rem;
-    height: auto;
-    display: inline-block;
-    transform: translateY(1px);
-    transition: filter 0.2s;
   }
 }
 
 @media (min-width: 768px) {
   .main {
-
     &__header {
       width: 100%;
       background-color: var(--navy-850);
@@ -205,6 +204,54 @@
     &__productive {
       flex-direction: row;
       gap: 57.24px;
+      margin-bottom: 120px;
+
+      &-figure {
+        width: 616.76px;
+        height: 463.63px;
+        margin: 0 auto 2rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &-img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      &-content {
+        max-width: 563px;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+      &-title {
+        max-width: 498.6px;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 19px;
+      }
+
+      &-paragraph {
+        font-size: 1rem;
+        line-height: 24px;
+        margin-bottom: 1rem;
+      }
+
+      &-link {
+        font-size: 1rem;
+        gap: 8px;
+        margin-top: 8px;
+      }
+    }
+
+    &__testimonials {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      margin-bottom: 201px;
     }
   }
 }

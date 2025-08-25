@@ -154,7 +154,10 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section aria-label="Testimonials">
+      <section
+        className={m['main__testimonials']}
+        aria-label="Testimonials"
+      >
         <Cards
           showQuote={true}
           imgSrc="/images/profile-1.webp"
