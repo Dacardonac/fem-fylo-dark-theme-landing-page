@@ -19,18 +19,20 @@ const Form = () => {
       >
         Email address
       </label>
-      <input
-        id="email"
-        type="email"
-        name="email"
-        className={f['form__input']}
-        placeholder="email@example.com"
-        required
-      />
-      <Button
-        title="Get Started For Free"
-        width="280px"
-      />
+      <div className={f['form__group']}>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          className={f['form__input']}
+          placeholder="email@example.com"
+          required
+        />
+        <Button
+          title="Get Started For Free"
+          width="280px"
+        />
+      </div>
     </form>
   );
 };

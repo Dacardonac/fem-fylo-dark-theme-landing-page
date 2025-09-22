@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--navy-950);
-  padding: 256px 28px 52px 28px;
+  padding: 16rem 1.75rem 3.25rem 1.75rem;
   width: 100%;
   margin-top: -11rem;
   z-index: 1;
@@ -14,10 +14,10 @@
   }
 
   &__logo {
-    margin-bottom: 35px;
+    margin: 0.1875rem 0 2.1875rem 2.4375rem;
 
     img {
-      width: 108px;
+      width: 6.75rem;
       height: auto;
       display: block;
     }
@@ -27,18 +27,18 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-bottom: 56px;
+    margin-bottom: 3.5rem;
 
     &-item {
       display: flex;
       align-items: flex-start;
       gap: 1rem;
-      line-height: 24px;
+      line-height: 1.5rem;
 
       &:nth-child(2),
       &:nth-child(3) {
         font-size: 0.875rem;
-        line-height: 21px;
+        line-height: 1.3125rem;
       }
     }
   }
@@ -48,16 +48,16 @@
     margin-top: 0.15rem;
 
     &:nth-child(1) .footer__icon {
-      width: 13px;
-      height: 18px;
+      width: 0.8125rem;
+      height: 1.125rem;
     }
     &:nth-child(2) .footer__icon {
-      width: 13px;
-      height: 13px;
+      width: 0.8125rem;
+      height: 0.8125rem;
     }
     &:nth-child(3) .footer__icon {
-      width: 20px;
-      height: 16px;
+      width: 1.25rem;
+      height: 1rem;
     }
   }
 
@@ -69,9 +69,9 @@
   &__nav {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 3rem;
     width: 100%;
-    margin-bottom: 56px;
+    margin-bottom: 3.5rem;
 
     &-list {
       list-style: none;
@@ -93,7 +93,7 @@
   &__social {
     display: flex;
     flex-direction: row;
-    gap: 9.84px;
+    gap: 0.615rem;
     justify-content: center;
     align-self: center;
 
@@ -101,8 +101,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 28.04px;
-      height: 27px;
+      width: 1.7525rem;
+      height: 1.6875rem;
       border: 1px solid var(--white);
       border-radius: 50%;
       background: transparent;
@@ -120,24 +120,110 @@
         transition: filter 0.2s;
       }
       &:nth-child(1) img {
-        width: 15px;
-        height: 15px;
+        width: 0.9375rem;
+        height: 0.9375rem;
       }
       &:nth-child(2) img {
-        width: 15px;
-        height: 15px;
+        width: 0.9375rem;
+        height: 0.9375rem;
       }
       &:nth-child(3) img {
-        width: 15px;
-        height: 15px;
+        width: 0.9375rem;
+        height: 0.9375rem;
       }
       &:hover img,
       &:focus img {
-        filter: invert(46%) sepia(99%) saturate(316%) hue-rotate(134deg) brightness(97%) contrast(92%);
+        filter: invert(46%) sepia(99%) saturate(316%) hue-rotate(134deg)
+          brightness(97%) contrast(92%);
       }
       &:hover svg,
       &:focus svg {
         fill: var(--teal-200);
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 9.8125rem 4.625rem 4.0625rem 7.9375rem;
+
+    &__container {
+      max-width: 77.5rem;
+      margin: 4.5rem auto 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 5rem;
+    }
+
+    &__logo {
+      margin: 4.5rem 0 -1.25rem 2.5rem;
+    }
+
+    &__contact {
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+
+      &-text {
+        width: 21.1875rem;
+        height: 4.5rem;
+        margin-right: 3.5rem;
+      }
+
+      &-item {
+        max-width: 39.375rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        line-height: 1.5;
+
+        img {
+          flex-shrink: 0;
+        }
+
+        a,
+        span {
+          white-space: nowrap;
+        }
+      }
+
+      &-div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-right: 4.125rem;
+      }
+    }
+
+    &__nav {
+      display: flex;
+      flex-direction: row;
+      gap: 5rem;
+      margin-right: 2.125rem;
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+
+    &__social {
+      display: flex;
+      gap: 1rem;
+      align-self: auto;
+
+      &-link {
+        width: 2rem;
+        height: 2rem;
+
+        img {
+          width: 1.25rem;
+          height: 1.25rem;
+        }
       }
     }
   }

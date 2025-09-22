@@ -1,20 +1,23 @@
 .navbar {
   width: 100%;
   display: flex;
-  justify-content:  center ;
-  align-items:  center ;
-  font-family: "Raleway", sans-serif;
-  transition: background 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    padding 0.3s ease;
 
   &__container {
-  width: 100%;
-  max-width: 90rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 1.5rem 3rem 1.25rem;
-  gap: 5.25rem;
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 3rem 1.25rem;
+    gap: 5.25rem;
   }
 
   &__logo {
@@ -57,7 +60,7 @@
 @media (min-width: 768px) {
   .navbar {
     &__container {
-      padding: 73px 80px 75px 80px;
+      padding: 4.5625rem 5rem 4.6875rem 5rem;
     }
 
     &__logo {
@@ -68,7 +71,7 @@
     }
 
     &__links {
-      gap: 57.2px;
+      gap: 3.575rem;
     }
 
     &__link {

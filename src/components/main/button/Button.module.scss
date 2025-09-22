@@ -12,7 +12,7 @@
   &:hover,
   &:focus {
     background: var(--btn-background-hover);
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
     transform: translateY(-1px);
     transition: transform 0.2s ease;
   }
@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) {
   .button {
-    height: 56px;
+    height: 3.5rem;
     font-size: 1rem;
     margin-bottom: 9.875rem;
   }

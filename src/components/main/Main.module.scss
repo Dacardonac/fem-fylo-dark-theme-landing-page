@@ -91,7 +91,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      max-width: 320px;
+      max-width: 20rem;
     }
 
     &-title {
@@ -159,7 +159,7 @@
       background-color: var(--navy-850);
     }
     &__figure {
-      margin: 0 auto 36px auto;
+      margin: 0 auto 2.25rem auto;
       width: 45rem;
       height: 33.375rem;
       display: flex;
@@ -173,17 +173,17 @@
     }
 
     &__title {
-      max-width: 734px;
-      font-size: 40px;
-      line-height: 60px;
-      margin-bottom: 32px;
+      max-width: 45.875rem;
+      font-size: 2.5rem;
+      line-height: 3.75rem;
+      margin-bottom: 2rem;
     }
 
     &__paragraph {
-      font-size: 20px;
-      line-height: 30px;
-      max-width: 589px;
-      margin-bottom: 32px;
+      font-size: 1.25rem;
+      line-height: 1.875rem;
+      max-width: 36.8125rem;
+      margin-bottom: 2rem;
     }
 
     &__features {
@@ -192,8 +192,8 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, auto);
       gap: 3.5rem 7.5rem;
-      width: 880px;
-      margin: 0 auto 137.7px auto;
+      width: 55rem;
+      margin: 0 auto 8.6062rem auto;
       background: none;
       justify-items: center;
       align-items: start;
@@ -203,12 +203,12 @@
 
     &__productive {
       flex-direction: row;
-      gap: 57.24px;
-      margin-bottom: 120px;
+      gap: 3.5775rem;
+      margin-bottom: 7.5rem;
 
       &-figure {
-        width: 616.76px;
-        height: 463.63px;
+        width: 38.5475rem;
+        height: 28.9769rem;
         margin: 0 auto 2rem auto;
         display: flex;
         justify-content: center;
@@ -222,36 +222,36 @@
       }
 
       &-content {
-        max-width: 563px;
+        max-width: 35.1875rem;
         align-items: flex-start;
         justify-content: center;
       }
 
       &-title {
-        max-width: 498.6px;
-        font-size: 40px;
-        line-height: 50px;
-        margin-bottom: 19px;
+        max-width: 31.1625rem;
+        font-size: 2.5rem;
+        line-height: 3.125rem;
+        margin-bottom: 1.1875rem;
       }
 
       &-paragraph {
         font-size: 1rem;
-        line-height: 24px;
+        line-height: 1.5rem;
         margin-bottom: 1rem;
       }
 
       &-link {
         font-size: 1rem;
-        gap: 8px;
-        margin-top: 8px;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
       }
     }
 
     &__testimonials {
       display: flex;
       flex-direction: row;
-      gap: 40px;
-      margin-bottom: 201px;
+      gap: 2.5rem;
+      margin-bottom: 12.5625rem;
     }
   }
 }

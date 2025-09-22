@@ -25,8 +25,8 @@
     user-select: none;
 
     &-img {
-      width: 32px;
-      height: 50px;
+      width: 2rem;
+      height: 3.125rem;
       object-fit: contain;
       display: block;
     }
@@ -74,9 +74,9 @@
 
 @media (min-width: 768px) {
   .cards {
-    max-width: 360px;
-    border-radius: 3.9296px;
-    padding: 40px 24.6992px 26px 26px;
+    max-width: 22.5rem;
+    border-radius: 0.2456rem;
+    padding: 2.5rem 1.5437rem 1.625rem 1.625rem;
     margin: 0 auto;
     z-index: 2;
 
@@ -85,21 +85,21 @@
     }
 
     &__quote {
-      width: 79px;
-      height: 200px;
-      top: -40px;
+      width: 4.9375rem;
+      height: 12.5rem;
+      top: -2.5rem;
       z-index: 1;
 
       &-img {
-        width: 79px;
+        width: 4.9375rem;
       }
     }
 
     &__text {
-      font-size: 14px;
-      line-height: 21px;
-      letter-spacing: 0.5008px;
-      margin: 0 0 24px 0;
+      font-size: 0.875rem;
+      line-height: 1.3125rem;
+      letter-spacing: 0.0313rem;
+      margin: 0 0 1.5rem 0;
     }
   }
 }
