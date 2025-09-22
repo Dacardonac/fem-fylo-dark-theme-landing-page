@@ -55,7 +55,7 @@ Mobile 🤳
 - Solution URL: **[Frontend Mentor Solution 👨‍💻]()**
 - Live Site URL: **[Solution Deploy in Vercel 🚀]()**
 - LinkedIn: **[Solution Post in LinkedIn 💻]()**
-- Challenge: **[Frontend Mentor Challenge 🧩](https://www.frontendmentor.io/challenges fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)**
+- Challenge: **[Frontend Mentor Challenge 🧩](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)**
 #
 ### How to Use the Project 💻
 
