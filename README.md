@@ -40,15 +40,11 @@ This is a solution to the **[Fylo Dark Theme Landing Page challenge on Frontend 
 
 Desktop 🖥️
 
-**![Solution Desktop Screenshot]()**
-
-Tablet 👨‍💻
-
-**![Solution Tablet Screenshot]()**
+**![Solution Desktop Screenshot](public/screenshots/desktop-screenshot.webp)**
 
 Mobile 🤳
 
-**![Solution Mobile Screenshot]()**
+**![Solution Mobile Screenshot](public/screenshots/mobile-screenshot.webp)**
 #
 ### Links 📍
 
