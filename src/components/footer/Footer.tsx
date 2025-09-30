@@ -4,10 +4,12 @@ const Footer = () => {
   return (
     <footer className={f.footer}>
       <div className={f['footer__logo']}>
-        <img
-          src="/images/svg/logo.svg"
-          alt="Fylo logo"
-        />
+        <a href="/">
+          <img
+            src="/images/svg/logo.svg"
+            alt="Fylo logo"
+          />
+        </a>
       </div>
       <div className={f['footer__container']}>
         <address className={f['footer__contact']}>

@@ -23,6 +23,14 @@
     margin-bottom: 2rem;
   }
 
+  &__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
   &__label {
     &--visually-hidden {
       position: absolute;
@@ -55,6 +63,16 @@
       color: var(--dark-gray);
     }
   }
+
+  &__error {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.625rem;
+    font-weight: bold;
+    color: var(--red-500);
+    margin-top: -11.8rem;
+    margin-left: -5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -78,7 +96,7 @@
     &__group {
       display: flex;
       flex-direction: row;
-      align-items: baseline;
+      align-items: flex-start;
       justify-content: center;
       gap: 1.8125rem;
     }
@@ -88,6 +106,11 @@
       height: 3rem;
       font-size: 1rem;
       margin-bottom: 2.5625rem;
+    }
+
+    &__error {
+      margin-top: -10rem;
+      margin-left: -30rem;
     }
   }
 }
